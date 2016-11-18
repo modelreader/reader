@@ -17,7 +17,7 @@ body,h1,h2,h3,h4,h5,h6,p,pre,ol,ul,li,form,input,textarea,dl,dt,dd,span
    {margin:0;
    padding:0;
    }
- ul,ol{
+ ul,li,ol,dt,dd,dl{
      list-style:none;
  }
 a{
@@ -28,6 +28,7 @@ body{
 }
 *{
   font-family:"Microsoft YaHei",sans-serif;
+  box-sizing:border-box;
 }
 /*图片路径*/
 $img-path:'../imgs/';
