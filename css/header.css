@@ -72,43 +72,30 @@ p, b, i, div, span, input, a {
 @font-face {
   font-family: 'headerfont';
   /* project id："184478" */
-  src: url("http://at.alicdn.com/t/font_n6d1zg23y8mbcsor.eot");
-  src: url("http://at.alicdn.com/t/font_n6d1zg23y8mbcsor.eot?#iefix") format("embedded-opentype"), url("http://at.alicdn.com/t/font_n6d1zg23y8mbcsor.woff") format("woff"), url("http://at.alicdn.com/t/font_n6d1zg23y8mbcsor.ttf") format("truetype"), url("http://at.alicdn.com/t/font_n6d1zg23y8mbcsor.svg#iconfont") format("svg"); }
+  src: url("http://at.alicdn.com/t/font_jqovc7s3ftne9udi.eot");
+  src: url("http://at.alicdn.com/t/font_jqovc7s3ftne9udi.eot?#iefix") format("embedded-opentype"), url("http://at.alicdn.com/t/font_jqovc7s3ftne9udi.woff") format("woff"), url("http://at.alicdn.com/t/font_jqovc7s3ftne9udi.ttf") format("truetype"), url("http://at.alicdn.com/t/font_jqovc7s3ftne9udi.svg#iconfont") format("svg"); }
 
 .header-logo {
   background: #29a6dc; }
 
-#login-header {
+.login-header {
   width: 100%;
   height: 1rem;
   position: relative; }
-  #login-header .back-circle {
-    width: 0.44rem;
-    height: 0.44rem;
-    border-radius: 50%;
-    border: 0.02rem solid #076cbe;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    background: #fff;
-    left: 0.25rem;
-    font-family: 'headerfont';
-    line-height: 0.42rem;
-    text-align: center;
-    font-size: 0.16rem; }
-  #login-header .header-title {
+  .login-header .header-title {
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    width: 3rem;
+    margin: auto;
+    min-width: 3rem;
     height: 100%;
     line-height: 1rem;
     text-align: center;
     margin: auto;
-    color: #fff; }
+    color: #fff;
+    font-size: 0.3rem; }
 
 .logo {
   width: 100%;
@@ -127,3 +114,278 @@ p, b, i, div, span, input, a {
 .logo3 {
   height: 2.02rem;
   line-height: 2.02rem; }
+
+.back-circle-l {
+  width: 0.44rem;
+  height: 0.44rem;
+  border-radius: 50%;
+  border: 0.02rem solid #076cbe;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+  left: 0.25rem;
+  font-family: 'headerfont';
+  line-height: 0.42rem;
+  text-align: center;
+  font-size: 0.16rem; }
+
+.back-circle-r {
+  width: 0.44rem;
+  height: 0.44rem;
+  border-radius: 50%;
+  border: 0.02rem solid #076cbe;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+  right: 0.25rem;
+  font-family: 'headerfont';
+  line-height: 0.42rem;
+  text-align: center;
+  font-size: 0.16rem; }
+
+.back-circle-screen {
+  width: 0.44rem;
+  height: 0.44rem;
+  border-radius: 50%;
+  border: 0.02rem solid #076cbe;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+  right: 0.35rem;
+  font-family: 'headerfont';
+  line-height: 0.42rem;
+  text-align: center;
+  font-size: 0.16rem; }
+
+.bookcase-header {
+  width: 100%;
+  height: 1rem;
+  position: relative;
+  background: #29a6dc; }
+  .bookcase-header .bookcase-header-title {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    min-width: 3rem;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    background-image: url("../imgs/header/h_03.png");
+    background-position: center center;
+    background-repeat: no-repeat; }
+    .bookcase-header .bookcase-header-title h3 {
+      font-size: 0.3rem;
+      margin-top: 0.03rem; }
+    .bookcase-header .bookcase-header-title h5 {
+      font-size: 0.14rem;
+      margin-top: 0.1rem;
+      color: rgba(255, 255, 255, 0.6); }
+
+.bookcase-header-search-out {
+  width: 5.45rem;
+  height: 0.54rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 1.02rem; }
+  .bookcase-header-search-out .bookcase-header-search {
+    position: relative;
+    border-radius: 0.25rem;
+    background: #fff;
+    padding: 0 0.57rem;
+    width: 100%;
+    height: 100%; }
+    .bookcase-header-search-out .bookcase-header-search input {
+      width: 100%;
+      height: 100%;
+      outline-style: none;
+      border: none;
+      font-family: 'headerfont';
+      font-size: 0.2rem; }
+    .bookcase-header-search-out .bookcase-header-search .search {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      font-family: 'headerfont';
+      font-size: 0.27rem;
+      line-height: 0.54rem;
+      left: .15rem; }
+
+.BookCity-header {
+  width: 100%;
+  height: 1rem;
+  position: relative;
+  background: #29a6dc; }
+  .BookCity-header .BookCity-list {
+    width: 5.71rem;
+    height: 0.84rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url("../imgs/c1/c1_03.png") no-repeat 0 0;
+    background-size: 100%; }
+  .BookCity-header .classify {
+    width: 1.65rem;
+    height: 100%;
+    float: left;
+    text-align: center;
+    color: #fff; }
+    .BookCity-header .classify h3 {
+      margin-top: 0.15rem;
+      font-size: 0.2rem; }
+    .BookCity-header .classify p {
+      font-size: 0.12rem;
+      margin-top: -.03rem;
+      color: rgba(255, 255, 255, 0.6); }
+  .BookCity-header .classify:nth-of-type(1) {
+    background: url("../imgs/c1/c_03.png") no-repeat center center;
+    background-size: 100%;
+    margin-left: 0.1rem; }
+  .BookCity-header .classify:nth-of-type(2) {
+    background: url("../imgs/c1/c_03.png") no-repeat center center;
+    background-size: 100%;
+    margin-left: 0.35rem; }
+  .BookCity-header .classify:nth-of-type(3) {
+    background: url("../imgs/c1/c_03.png") no-repeat center center;
+    background-size: 100%;
+    margin-left: 0.2rem; }
+  .BookCity-header .BookCity-header-title {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    min-width: 3rem;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    background-image: url("../imgs/header/h_03.png");
+    background-position: center 0.55rem;
+    background-repeat: no-repeat; }
+    .BookCity-header .BookCity-header-title h3 {
+      font-size: 0.34rem;
+      margin-top: 0.03rem; }
+    .BookCity-header .BookCity-header-title p {
+      font-size: 0.12rem;
+      margin-top: 0.1rem;
+      color: rgba(255, 255, 255, 0.6); }
+
+.mine-header {
+  width: 100%;
+  height: 1rem;
+  position: relative;
+  background: #29a6dc; }
+  .mine-header .mine-header-title {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    min-width: 3rem;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    background-image: url("../imgs/header/h_03.png");
+    background-position: center 0.55rem;
+    background-repeat: no-repeat; }
+    .mine-header .mine-header-title h3 {
+      font-size: 0.34rem;
+      margin-top: 0.03rem; }
+    .mine-header .mine-header-title p {
+      font-size: 0.12rem;
+      margin-top: 0.1rem;
+      color: rgba(255, 255, 255, 0.6); }
+
+.mine-change {
+  width: 5.71rem;
+  height: 0.84rem;
+  background: url("../imgs/d6/b4_03.png") no-repeat 0 0;
+  background-size: 100%; }
+  .mine-change .change {
+    width: 100%;
+    height: 100%;
+    position: relative; }
+    .mine-change .change div.xz {
+      width: 2.39rem;
+      height: 0.68rem;
+      text-align: center;
+      color: #fff; }
+      .mine-change .change div.xz h3 {
+        font-size: 0.2rem; }
+      .mine-change .change div.xz p {
+        font-size: 0.12rem;
+        margin-top: -.04rem;
+        color: rgba(255, 255, 255, 0.6); }
+    .mine-change .change div.xz:nth-of-type(1) {
+      background: url("../imgs/d6/d6_03.png") no-repeat 0 0;
+      background-size: 100%;
+      float: left;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      left: 0.08rem; }
+    .mine-change .change div.xz:nth-of-type(2) {
+      background: url("../imgs/d6/d6_03.png") no-repeat 0 0;
+      background-size: 100%;
+      float: left;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      right: 0.08rem; }
+
+.bookPage-header {
+  width: 100%;
+  height: 1rem;
+  position: relative;
+  background: #29a6dc; }
+  .bookPage-header .mine-header-title {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    min-width: 3rem;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    background-image: url("../imgs/header/h_03.png");
+    background-position: center 0.55rem;
+    background-repeat: no-repeat; }
+    .bookPage-header .mine-header-title h3 {
+      font-size: 0.34rem;
+      margin-top: 0.03rem; }
+    .bookPage-header .mine-header-title p {
+      font-size: 0.12rem;
+      margin-top: 0.1rem;
+      color: rgba(255, 255, 255, 0.6); }
+
+.bookpage-footer {
+  width: 100%;
+  height: 1.28rem; }
+  .bookpage-footer .bookpage-footer-m {
+    width: 100%;
+    height: 100%;
+    position: relative; }
