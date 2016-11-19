@@ -1,0 +1,177 @@
+@import "base";
+*{
+    box-sizing:border-box;
+}
+#readBooks{
+    width:100%;
+    height:auto;
+    padding-left:0.22rem;
+    padding-right:0.22rem;
+    background:#ffe7a7;
+    .bookname{
+      width:100%;
+      height:0.28rem;
+      .xian1{
+      width:0.24rem;
+      height:0.02rem;
+      background:#a1946e;
+      float:left;
+      margin-top:0.19rem;
+      }
+      .name1{
+        height:0.28rem;
+        float:left;
+        padding:0.07rem 0.07rem 0 0.07rem;
+        text-align:center;
+        font-size:0.14rem;
+        color:#a1946e;
+      }
+      .xian2{
+         width:5.40rem;
+        height:0.01rem;
+         background:#635c48;
+         float:left;
+         margin-top:0.2rem;
+      }
+    }
+    .title{
+      width:100%;
+      height:0.8rem;
+      padding-left: 0.12rem;
+      .juan{
+          height:100%;
+          text-align: center;
+          line-height:0.8rem;
+          font-size:0.28rem;
+          color:#454138;
+          float:left;
+          margin-right:0.15rem;
+          font-weight: bold;
+      }
+    }
+    .content{
+        width:100%;
+        height:11.32rem;
+        padding-left:0.3rem;
+        padding-right:0.6rem;
+        p{
+            font-size:0.24rem;
+            color:#3a3730;
+            text-indent:2em;
+            letter-spacing: 0.04rem;
+            margin-bottom:0.42rem;
+        }
+    }   
+    .dibu{
+        width:100%;
+        height:0.55rem;
+        .jindu{
+            width:1.86rem;
+            height:100%;
+            float:left;
+            font-size:0.24rem;
+            color:#363028;
+            margin-top:0.08rem;
+            margin-left:0.27rem;
+        }
+        .yema{
+            height:100%;
+            float:right;
+            margin-right:0.22rem;
+            text-align: right;
+            line-height:0.55rem;
+            font-size:0.24rem;
+            color:#363028;
+        }
+    }
+    .yueliang{
+        position:absolute;
+        width:0.56rem;
+        height:0.56rem;
+        left:0;
+        bottom:3.18rem;
+        background:paleturquoise;
+        border-radius: 50%;
+    }
+}
+.xiaping{
+    position:fixed;
+    width:100%;
+    height:2.25rem;
+    bottom:0;
+    left:0;
+    background:#151c2b;
+    padding-left:0.24rem;
+    padding-right:0.24rem;
+    .tiaojie{
+        width:100%;
+        height:1.12rem;
+        .prev{
+            height:100%;
+            line-height: 1.12rem;
+            text-align: left;
+            margin-left:0.18rem;
+            font-size:0.24rem;
+            color:#c6c6c6; 
+            float:left; 
+        }
+        .tiao{
+            width:5.18rem;
+            height:0.12rem;
+            float:left;
+            background:#d5d5d5;
+            border-radius: 0.05rem;
+            margin-top:0.55rem;
+            position:relative;
+            .dian{
+                position:absolute;
+                @include top-bottom;
+                width:0.24rem;
+                height:0.24rem;
+                border-radius: 50%;
+                background:red;
+            }
+        }
+    }
+    .tubiao{
+        width:100%;
+        height:0.58rem;
+        div{
+            width:0.58rem;
+            height:0.58rem;
+            float:left;
+            background:red;
+        }
+        .tubiao1{
+            margin-left:0.86rem;
+        }
+        .tubiao2{
+            margin-left:1.75rem;
+        }
+        .tubiao3{
+            margin-left:1.68rem;
+        }
+    }
+    .zi{
+        width:100%;
+        height:0.55rem;
+         div{
+            width:0.58rem;
+            height:0.58rem;
+            float:left;
+            font-size:0.22rem;
+            text-align: center;
+            color:#e6e6e6;
+        }
+        .tubiao1{
+            margin-left:0.86rem;
+        }
+        .tubiao2{
+            margin-left:1.75rem;
+        }
+        .tubiao3{
+            margin-left:1.68rem;
+        }
+    }
+}
+
