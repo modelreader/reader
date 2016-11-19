@@ -149,7 +149,8 @@ p, b, i, div, span, input, a {
     height: 0.56rem;
     left: 0;
     bottom: 3.18rem;
-    background: paleturquoise;
+    background: url("../imgs/f1/f1_15.png");
+    background-size: cover;
     border-radius: 50%; }
 
 .xiaping {
@@ -189,7 +190,8 @@ p, b, i, div, span, input, a {
         width: 0.24rem;
         height: 0.24rem;
         border-radius: 50%;
-        background: red; }
+        background: url("../imgs/f1/f1_19.png");
+        background-size: cover; }
   .xiaping .tubiao {
     width: 100%;
     height: 0.58rem; }
@@ -199,11 +201,17 @@ p, b, i, div, span, input, a {
       float: left;
       background: red; }
     .xiaping .tubiao .tubiao1 {
-      margin-left: 0.86rem; }
+      margin-left: 0.86rem;
+      background: url("../imgs/f1/f1_23.png");
+      background-size: cover; }
     .xiaping .tubiao .tubiao2 {
-      margin-left: 1.75rem; }
+      margin-left: 1.75rem;
+      background: url("../imgs/f1/f1_25.png");
+      background-size: cover; }
     .xiaping .tubiao .tubiao3 {
-      margin-left: 1.68rem; }
+      margin-left: 1.68rem;
+      background: url("../imgs/f1/f1_27.png");
+      background-size: cover; }
   .xiaping .zi {
     width: 100%;
     height: 0.55rem; }
@@ -220,3 +228,163 @@ p, b, i, div, span, input, a {
       margin-left: 1.75rem; }
     .xiaping .zi .tubiao3 {
       margin-left: 1.68rem; }
+  .xiaping .youce {
+    width: 0.96rem;
+    height: 0.78rem;
+    position: absolute;
+    right: 0;
+    top: -5.95rem;
+    background: url("../imgs/f1/2_03.png");
+    background-size: cover; }
+  .xiaping .zhuti {
+    width: 100%;
+    height: 2.78rem;
+    background: #151c2b;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding-left: 0.42rem; }
+    .xiaping .zhuti .zihao, .xiaping .zhuti .hangju {
+      width: 100%;
+      height: 0.68rem;
+      padding-right: 0.55rem; }
+      .xiaping .zhuti .zihao .zihaoL, .xiaping .zhuti .hangju .zihaoL {
+        height: 100%;
+        text-align: left;
+        line-height: 0.68rem;
+        font-size: 0.24rem;
+        color: #f0f0f0;
+        float: left; }
+      .xiaping .zhuti .zihao .zihaoCR, .xiaping .zhuti .hangju .zihaoCR {
+        width: 4.66rem;
+        height: 0.07rem;
+        background: #d5d5d5;
+        float: left;
+        margin-left: 0.23rem;
+        margin-top: 0.3rem;
+        border-radius: 10px;
+        position: relative; }
+        .xiaping .zhuti .zihao .zihaoCR .dian, .xiaping .zhuti .hangju .zihaoCR .dian {
+          width: 0.2rem;
+          height: 0.2rem;
+          background: url("../imgs/f6/f1_19.png");
+          background-size: cover;
+          position: absolute;
+          left: 0.2rem;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          margin: auto; }
+      .xiaping .zhuti .zihao .zihaoR, .xiaping .zhuti .hangju .zihaoR {
+        height: 100%;
+        float: right;
+        text-align: right;
+        font-size: 0.24rem;
+        color: #f0f0f0;
+        line-height: 0.68rem; }
+      .xiaping .zhuti .zihao .zihao .zihaoCL, .xiaping .zhuti .hangju .zihao .zihaoCL {
+        height: 0.25rem;
+        width: 0.25rem;
+        float: left;
+        background: url("../imgs/f6/f5_03.png");
+        background-size: cover;
+        margin-top: 0.25rem;
+        margin-left: 0.32rem; }
+      .xiaping .zhuti .zihao .hangju .zihaoCL, .xiaping .zhuti .hangju .hangju .zihaoCL {
+        height: 0.32rem;
+        width: 0.32rem;
+        float: left;
+        background: url("../imgs/f6/f5_07.png");
+        background-size: cover;
+        margin-top: 0.25rem;
+        margin-left: 0.32rem; }
+    .xiaping .zhuti .beijing {
+      width: 100%;
+      height: 0.68rem; }
+      .xiaping .zhuti .beijing .zihaoL {
+        height: 100%;
+        text-align: left;
+        line-height: 0.68rem;
+        font-size: 0.24rem;
+        color: #f0f0f0;
+        float: left; }
+      .xiaping .zhuti .beijing .bg {
+        width: 6rem;
+        height: 100%;
+        float: left; }
+        .xiaping .zhuti .beijing .bg .theme {
+          width: 100%;
+          height: 100%; }
+          .xiaping .zhuti .beijing .bg .theme li {
+            width: 0.55rem;
+            height: 0.55rem;
+            float: left;
+            margin-left: 0.19rem;
+            margin-top: 0.13rem; }
+        .xiaping .zhuti .beijing .bg .mingzi {
+          width: 100%;
+          height: 0.36rem; }
+          .xiaping .zhuti .beijing .bg .mingzi .ming {
+            width: 0.55rem;
+            height: 100%;
+            float: left;
+            text-align: center;
+            line-height: 0.36rem;
+            font-size: 0.14rem;
+            color: #cccccc;
+            margin-left: 0.19rem; }
+
+.theme li:nth-of-type(1) {
+  background-color: #fcf3db; }
+
+.theme li:nth-of-type(2) {
+  background-color: #ffe9b0; }
+
+.theme li:nth-of-type(3) {
+  background-color: #d8a764; }
+
+.theme li:nth-of-type(4) {
+  background-color: #3876ac; }
+
+.theme li:nth-of-type(5) {
+  background-color: #21858e; }
+
+.theme li:nth-of-type(6) {
+  background-color: #f4c5d4; }
+
+.theme li:nth-of-type(7) {
+  background-color: #79d143; }
+
+.theme li:nth-of-type(8) {
+  background-color: #ffffff; }
+
+.mulu {
+  width: 100%;
+  height: 11.97rem;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none; }
+  .mulu ul {
+    width: 100%;
+    height: 100%; }
+    .mulu ul li {
+      width: 100%;
+      height: 0.88rem;
+      border-bottom: 0.01rem dashed #999999;
+      padding-left: 0.48rem;
+      padding-right: 0.45rem; }
+      .mulu ul li div {
+        height: 100%;
+        text-align: left;
+        line-height: 0.88rem;
+        font-size: 0.26rem;
+        float: left; }
+      .mulu ul li .zhengwen {
+        color: #357fe4; }
+      .mulu ul li .zhangshu, .mulu ul li .timu {
+        margin-left: 0.32rem;
+        color: #357fe4; }
+      .mulu ul li .state {
+        float: right; }

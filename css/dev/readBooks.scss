@@ -90,7 +90,8 @@
         height:0.56rem;
         left:0;
         bottom:3.18rem;
-        background:paleturquoise;
+        background:url($img-path+"f1/f1_15.png");
+        background-size:cover;
         border-radius: 50%;
     }
 }
@@ -129,7 +130,8 @@
                 width:0.24rem;
                 height:0.24rem;
                 border-radius: 50%;
-                background:red;
+                background:url($img-path+"f1/f1_19.png");
+                background-size:cover;
             }
         }
     }
@@ -144,12 +146,18 @@
         }
         .tubiao1{
             margin-left:0.86rem;
+            background:url($img-path+"f1/f1_23.png");
+            background-size:cover;
         }
         .tubiao2{
             margin-left:1.75rem;
+            background:url($img-path+"f1/f1_25.png");
+            background-size:cover;
         }
         .tubiao3{
             margin-left:1.68rem;
+            background:url($img-path+"f1/f1_27.png");
+            background-size:cover;
         }
     }
     .zi{
@@ -171,6 +179,180 @@
         }
         .tubiao3{
             margin-left:1.68rem;
+        }
+    }
+    .youce{
+        width:0.96rem;
+        height:0.78rem;
+        position:absolute;
+        right:0;
+        top:-5.95rem;
+        background:url($img-path+"f1/2_03.png");
+        background-size:cover;
+       
+    }
+    .zhuti{
+       width:100%;
+       height:2.78rem;
+       background:#151c2b;
+       position:absolute;
+       left:0;
+       bottom:0;
+       padding-left:0.42rem; 
+       .zihao,.hangju{
+           width:100%;
+           height:0.68rem;
+           padding-right:0.55rem;
+           .zihaoL{
+               height:100%;
+               text-align: left;
+               line-height:0.68rem;
+               font-size:0.24rem;
+               color:#f0f0f0;
+               float:left;
+           }
+           .zihaoCR{
+               width:4.66rem;
+               height:0.07rem;
+               background:#d5d5d5;
+               float:left;
+               margin-left:0.23rem;
+               margin-top:0.3rem;
+               border-radius: 10px;
+               position:relative;
+               .dian{
+                   width:0.2rem;
+                   height:0.2rem;
+                   background:url($img-path+"f6/f1_19.png");
+                   background-size:cover;
+                   position:absolute;
+                   left:0.2rem;
+                   @include top-bottom;
+                   
+               }
+           }
+           .zihaoR{
+               height:100%;
+               float: right;
+               text-align: right;
+               font-size:0.24rem;
+               color:#f0f0f0;
+               line-height:0.68rem;
+               
+           }
+           .zihao .zihaoCL{
+               height:0.25rem;
+               width:0.25rem;
+               float:left;
+               background:url($img-path+"f6/f5_03.png");
+               background-size:cover;
+               margin-top:0.25rem;
+               margin-left:0.32rem;   
+           }
+         .hangju .zihaoCL{
+               height:0.32rem;
+               width:0.32rem;
+               float:left;
+               background:url($img-path+"f6/f5_07.png");
+               background-size:cover;
+               margin-top:0.25rem;
+               margin-left:0.32rem;
+           }
+       }
+       .beijing{
+                width:100%;
+                height:0.68rem;
+                .zihaoL{
+                   height:100%;
+                   text-align: left;
+                   line-height:0.68rem;
+                   font-size:0.24rem;
+                   color:#f0f0f0;
+                   float:left;
+                }
+               .bg{
+                   width:6rem;
+                   height:100%;
+                   float:left;
+                   .theme{
+                       width:100%;
+                       height:100%;
+                       li{
+                           width:0.55rem;
+                           height:0.55rem;
+                           float:left;
+                           margin-left:0.19rem;
+                           margin-top:0.13rem;
+                       }
+                   }
+                   .mingzi{
+                       width:100%;
+                       height:0.36rem;
+                       .ming{
+                          width:0.55rem;
+                          height:100%;
+                          float:left;
+                          text-align: center;
+                          line-height: 0.36rem; 
+                          font-size:0.14rem;
+                          color:#cccccc;
+                          margin-left:0.19rem;
+                     }
+                   }
+                }
+        }       
+    }
+}
+$red : #fcf3db;
+$orange : #ffe9b0;
+$yellow :#d8a764;
+$green : #3876ac;
+$bluegreen : #21858e;
+$blue :  #f4c5d4;
+$purple :#79d143;
+$black:#ffffff;
+$bgcolorlist: $red $orange $yellow $green $bluegreen $blue $purple $black;
+@for $i from 1 to length($bgcolorlist)+1 {
+    .theme li:nth-of-type(#{$i}) {
+        background-color: nth($bgcolorlist,$i);
+    }
+}
+
+.mulu{
+    width:100%;
+    height:11.97rem;
+    background:#fff;
+    position:absolute;
+    left:0;
+    top:0;
+    display:none;
+    ul{
+        width:100%;
+        height:100%;
+        li{
+            width:100%;
+            height:0.88rem;
+            border-bottom:0.01rem dashed #999999;
+            padding-left:0.48rem;
+            padding-right:0.45rem;
+            div{
+                height:100%;
+                text-align: left;
+                line-height: 0.88rem;
+                font-size:0.26rem;
+                float:left;
+            }
+            .zhengwen{
+                color:#357fe4;
+            }
+            .zhangshu,.timu{
+                margin-left:0.32rem;
+                color:#357fe4;
+                
+            }
+            .state{
+                float:right;
+            }
         }
     }
 }
