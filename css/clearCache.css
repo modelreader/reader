@@ -75,11 +75,11 @@ p, b, i, div, span, input, a {
 body {
   background: #fafafa; }
 
-#break {
+#clearCache {
   width: 7.5rem;
   height: 12.94rem;
   position: relative; }
-  #break .ul {
+  #clearCache .ul {
     width: 7rem;
     height: 3.6rem;
     box-shadow: 0 0 0.2rem #e1e1e1;
@@ -88,12 +88,12 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 0.23rem; }
-    #break .ul li {
+    #clearCache .ul li {
       width: 100%;
       height: 0.9rem;
       border-bottom: 1px dashed #959595;
       overflow: hidden; }
-      #break .ul li .tus {
+      #clearCache .ul li .tus {
         display: block;
         width: 0.32rem;
         height: 0.32rem;
@@ -102,30 +102,30 @@ body {
         background-repeat: no-repeat;
         background-position: 0 0;
         background-size: 100%;
-        background-image: url(../imgs/d3/d2_07.png);
+        background-image: url(../imgs/d5/d2_07.png);
         margin-left: 0.15rem;
         margin-right: 0.15rem;
         margin-top: 0.25rem; }
-      #break .ul li .tu2 {
-        background-image: url(../imgs/d3/d2_10.png); }
-      #break .ul li .tu3 {
-        background-image: url(../imgs/d3/d2_12.png); }
-      #break .ul li .tu4 {
-        background-image: url(../imgs/d3/d2_18.png); }
-      #break .ul li > a {
+      #clearCache .ul li .tu2 {
+        background-image: url(../imgs/d5/d2_10.png); }
+      #clearCache .ul li .tu3 {
+        background-image: url(../imgs/d5/d2_12.png); }
+      #clearCache .ul li .tu4 {
+        background-image: url(../imgs/d5/d2_18.png); }
+      #clearCache .ul li > a {
         float: left;
         width: 5.8rem;
         height: 0.5rem;
         margin-top: 0.2rem;
         position: relative; }
-        #break .ul li > a p {
+        #clearCache .ul li > a p {
           width: 100%;
           height: 0.27rem;
           font-size: 0.25rem;
           font-weight: bold;
           color: #333;
           line-height: 0.27rem; }
-        #break .ul li > a .english {
+        #clearCache .ul li > a .english {
           display: block;
           width: 100%;
           height: 0.23rem;
@@ -133,7 +133,7 @@ body {
           color: #333;
           line-height: 0.28rem;
           text-transform: uppercase; }
-        #break .ul li > a .banben {
+        #clearCache .ul li > a .banben {
           display: block;
           width: 0.6rem;
           text-align: right;
@@ -143,40 +143,40 @@ body {
           font-size: 0.25rem;
           font-weight: bold;
           color: #333; }
-      #break .ul li .start {
+      #clearCache .ul li .start {
         width: 4.8rem; }
-      #break .ul li .zhuan {
+      #clearCache .ul li .zhuan {
         float: left;
         width: 0.09rem;
         height: 0.17rem;
         margin-left: 0.15rem;
         margin-top: 0.4rem; }
-        #break .ul li .zhuan a {
+        #clearCache .ul li .zhuan a {
           display: block;
           width: 100%;
           height: 100%;
-          background: url(../imgs/d3/d1_53.png) no-repeat 0 0;
+          background: url(../imgs/d5/d1_53.png) no-repeat 0 0;
           background-size: 100%; }
-      #break .ul li .zhuan1 {
+      #clearCache .ul li .zhuan1 {
         width: 0.89rem;
         height: 0.42rem;
         margin-left: 0.4rem;
         margin-top: 0.23rem; }
-        #break .ul li .zhuan1 a {
-          background: url(../imgs/d3/d2_14.png) no-repeat 0 0;
+        #clearCache .ul li .zhuan1 a {
+          background: url(../imgs/d5/d2_14.png) no-repeat 0 0;
           background-size: 100%; }
-    #break .ul .llast {
+    #clearCache .ul .llast {
       border: none; }
-  #break .login {
+  #clearCache .login {
     width: 7.5rem;
     height: 0.7rem;
     position: fixed;
     bottom: 0.8rem; }
-    #break .login a {
+    #clearCache .login a {
       display: block;
       width: 5.65rem;
       height: 100%;
-      background: url("../imgs/d3/d2_21.png") 0 0 no-repeat;
+      background: url("../imgs/d5/d2_21.png") 0 0 no-repeat;
       background-size: 100%;
       left: 0;
       right: 0;
@@ -186,7 +186,7 @@ body {
       font-size: 0.3rem;
       text-align: center;
       line-height: 0.7rem; }
-  #break .tixing {
+  #clearCache .tixing {
     width: 4.8rem;
     height: 5.62rem;
     border-radius: 0.2rem;
@@ -196,36 +196,65 @@ body {
     margin: auto;
     position: absolute;
     box-shadow: 0 0 0 10rem rgba(0, 0, 0, 0.5); }
-    #break .tixing .title {
+    #clearCache .tixing .title {
       width: 100%;
       height: 0.85rem;
-      background: url("../imgs/d3/d3_3.png") 0 0 no-repeat;
-      background-size: 100%; }
-    #break .tixing .time {
+      background: url("../imgs/d5/d5_03.png") 0 0 no-repeat;
+      background-size: 100%;
+      position: relative; }
+      #clearCache .tixing .title p {
+        position: absolute;
+        right: 0.4rem;
+        top: 0.3rem;
+        width: 0.9rem;
+        height: 0.3rem; }
+        #clearCache .tixing .title p > a {
+          float: left;
+          width: 0.5rem;
+          height: 0.3rem;
+          text-align: center;
+          line-height: 0.3rem;
+          color: #fff;
+          font-size: 0.16rem;
+          margin-right: 0.1rem; }
+        #clearCache .tixing .title p span {
+          float: left;
+          width: 0.3rem;
+          height: 0.3rem;
+          border-radius: 50%;
+          border: 1px solid #fff;
+          padding: 0.04rem; }
+          #clearCache .tixing .title p span a {
+            display: block;
+            width: 0.19rem;
+            height: 0.19rem;
+            border-radius: 50%;
+            background: #fff; }
+    #clearCache .tixing .time {
       width: 4.34rem;
       height: 3.2rem;
       margin-left: auto;
       margin-right: auto; }
-      #break .tixing .time li {
+      #clearCache .tixing .time li {
         width: 100%;
         height: 0.8rem;
         border-bottom: 1px dashed #959595;
         overflow: hidden;
         padding-left: 0.15rem; }
-        #break .tixing .time li > a {
+        #clearCache .tixing .time li > a {
           float: left;
           width: 3.8rem;
           height: 0.5rem;
           margin-top: 0.2rem;
           position: relative; }
-          #break .tixing .time li > a p {
+          #clearCache .tixing .time li > a p {
             width: 100%;
             height: 0.27rem;
             font-size: 0.25rem;
             font-weight: bold;
             color: #333;
             line-height: 0.27rem; }
-          #break .tixing .time li > a .english {
+          #clearCache .tixing .time li > a .english {
             display: block;
             width: 100%;
             height: 0.23rem;
@@ -233,7 +262,7 @@ body {
             color: #333;
             line-height: 0.28rem;
             text-transform: uppercase; }
-          #break .tixing .time li > a .banben {
+          #clearCache .tixing .time li > a .banben {
             display: block;
             width: 0.6rem;
             text-align: right;
@@ -243,27 +272,27 @@ body {
             font-size: 0.25rem;
             font-weight: bold;
             color: #333; }
-        #break .tixing .time li .zhuan {
+        #clearCache .tixing .time li .zhuan {
           float: left;
           width: 0.3rem;
           height: 0.3rem;
           margin-top: 0.3rem; }
-          #break .tixing .time li .zhuan a {
+          #clearCache .tixing .time li .zhuan a {
             display: block;
             width: 100%;
             height: 100%;
             background: url(../imgs/d3/d3_03.png) no-repeat 0 0;
             background-size: 100%; }
-          #break .tixing .time li .zhuan .xuanzhong {
+          #clearCache .tixing .time li .zhuan .xuanzhong {
             background: url(../imgs/d3/d3_06.png) no-repeat 0 0;
             background-size: 100%; }
-    #break .tixing .sele {
+    #clearCache .tixing .sele {
       width: 4.34rem;
       height: 0.6rem;
       margin-left: auto;
       margin-right: auto;
       margin-top: 0.4rem; }
-      #break .tixing .sele a {
+      #clearCache .tixing .sele a {
         float: left;
         width: 1.95rem;
         height: 0.58rem;
@@ -276,7 +305,7 @@ body {
         line-height: 0.58rem;
         margin-left: 0.1rem;
         margin-right: 0.1rem; }
-      #break .tixing .sele .sure {
+      #clearCache .tixing .sele .sure {
         background: url("../imgs/d3/d3_09.png") 0 0 no-repeat;
         background-size: 100%;
         color: #fff; }
