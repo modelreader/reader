@@ -240,10 +240,11 @@ p, b, i, div, span, input, a {
     width: 100%;
     height: 2.78rem;
     background: #151c2b;
-    position: absolute;
+    position: fixed;
     left: 0;
     bottom: 0;
-    padding-left: 0.42rem; }
+    padding-left: 0.42rem;
+    display: none; }
     .xiaping .zhuti .zihao, .xiaping .zhuti .hangju {
       width: 100%;
       height: 0.68rem;
@@ -333,6 +334,69 @@ p, b, i, div, span, input, a {
             font-size: 0.14rem;
             color: #cccccc;
             margin-left: 0.19rem; }
+  .xiaping .liangdu {
+    width: 100%;
+    height: 1.86rem;
+    background: #151c2b;
+    position: fixed;
+    left: 0;
+    bottom: 0; }
+    .xiaping .liangdu .liang1 {
+      width: 100%;
+      height: 0.37rem; }
+      .xiaping .liangdu .liang1 div:first-child {
+        height: 100%;
+        text-align: left;
+        line-height: 0.37rem;
+        font-size: 0.24rem;
+        color: #f2f2f2;
+        float: left;
+        margin-left: 0.44rem; }
+      .xiaping .liangdu .liang1 .tiao {
+        width: 4.68rem;
+        height: 0.06rem;
+        background: #d5d5d5;
+        float: left;
+        margin-left: 0.2rem;
+        margin-top: 0.17rem;
+        position: relative; }
+        .xiaping .liangdu .liang1 .tiao .dian {
+          position: absolute;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+          width: 0.2rem;
+          height: 0.2rem;
+          background: url("../imgs/f1/f1_19.png");
+          background-size: cover;
+          left: 0.2rem;
+          border-radius: 0.1rem; }
+      .xiaping .liangdu .liang1 .liang {
+        height: 100%;
+        text-align: left;
+        line-height: 0.37rem;
+        font-size: 0.24rem;
+        color: #f2f2f2;
+        float: left;
+        margin-left: 0.27rem; }
+      .xiaping .liangdu .liang1 .tu {
+        width: 0.73rem;
+        height: 100%;
+        background: url("../imgs/f6/na_03.jpg");
+        background-size: cover;
+        float: left;
+        margin-left: 0.24rem;
+        margin-top: 0.05rem; }
+    .xiaping .liangdu .liang2 {
+      width: 100%;
+      height: 100%; }
+      .xiaping .liangdu .liang2 .huyan div:first-child {
+        width: 0.22rem;
+        height: 0.22rem;
+        background: url("../imgs/f6/f7_03.png");
+        background-size: cover;
+        float: left; }
 
 .theme li:nth-of-type(1) {
   background-color: #fcf3db; }
