@@ -1,12 +1,12 @@
 @import 'base';
 //iconfont
 @font-face {
-  font-family: 'headerfont';  /* project id："184478" */
-  src: url('http://at.alicdn.com/t/font_jqovc7s3ftne9udi.eot');
-  src: url('http://at.alicdn.com/t/font_jqovc7s3ftne9udi.eot?#iefix') format('embedded-opentype'),
-  url('http://at.alicdn.com/t/font_jqovc7s3ftne9udi.woff') format('woff'),
-  url('http://at.alicdn.com/t/font_jqovc7s3ftne9udi.ttf') format('truetype'),
-  url('http://at.alicdn.com/t/font_jqovc7s3ftne9udi.svg#iconfont') format('svg');
+  font-family: 'headerfont';
+  src: url('../fonts/headerfont/iconfont.eot');
+  src: url('../fonts/headerfont/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/headerfont/iconfont.woff') format('woff'),
+  url('../fonts/headerfont/iconfont.ttf') format('truetype'),
+  url('../fonts/headerfont/iconfont.svg#iconfont') format('svg');
 }
 //登录页面header
 .header-logo{
@@ -54,9 +54,10 @@
         background: #fff;
         left: 0.25rem;
         font-family: 'headerfont';
-        line-height: 0.42rem;
+        line-height: 0.38rem;
         text-align: center;
         font-size: 0.16rem;
+        color: #73c4e7;
     }
 //书架页面
 .back-circle-r{
@@ -68,9 +69,10 @@
         background: #fff;
         right: 0.25rem;
         font-family: 'headerfont';
-        line-height: 0.42rem;
+        line-height: 0.38rem;
         text-align: center;
         font-size: 0.16rem;
+        color: #73c4e7;
     }
     .back-circle-screen{
         width:0.44rem;
@@ -81,9 +83,10 @@
         background: #fff;
         right: 0.35rem;
         font-family: 'headerfont';
-        line-height: 0.42rem;
+        line-height: 0.44rem;
         text-align: center;
         font-size: 0.16rem;
+        color: #42b0e0;
     }
 .bookcase-header{
     width: 100%;
@@ -109,6 +112,7 @@
             font-size: 0.14rem;
             margin-top: 0.1rem;
             color: rgba(255,255,255,0.6);
+            transform: scale(0.8);
         }
     }
 }
@@ -169,6 +173,7 @@
             font-size: 0.12rem;
             margin-top: -.03rem;
             color: rgba(255,255,255,0.6);
+            transform: scale(0.8);
         }      
     }
     .classify:nth-of-type(1){
@@ -196,18 +201,49 @@
         background-image: url($img-path+'header/h_03.png');
         background-position: center 0.55rem;
         background-repeat: no-repeat;
-//      line-height: 100%;
         h3{
             font-size: 0.34rem;
             margin-top: 0.03rem;
-//          margin-bottom: 0.05rem;
         }
         p{
             font-size: 0.12rem;
             margin-top: 0.1rem;
             color: rgba(255,255,255,0.6);
+            transform: scale(0.8);
         }
     }
+}
+//书城底部
+.BookCity-footer{
+     width: 100%;
+     height: 1rem;
+     background: #151c2b;
+     .bookChange{
+         width: 33.333%;
+         height:100% ;
+         float: left;
+         background-repeat:no-repeat ;
+         background-position: center center;
+         background-size: 100%;
+         color: #646567;
+         p{
+             font-size: 0.44rem;
+             text-align: center;
+             font-family: "headerfont";
+             margin-top: 0.05rem;
+         }
+         span{
+             font-size: 0.24rem;
+             text-align: center;
+             display: block;
+             width: 100%;
+         }
+     }
+     .bookChange:nth-of-type(1){
+         background-image: url($img-path+'c3/c1_xz.png') ;
+         border-left: 1px solid #717171;
+         border-right: 1px solid #717171;
+     }
 }
 //我的
 .mine-header{
@@ -235,6 +271,7 @@
             font-size: 0.12rem;
             margin-top: 0.1rem;
             color: rgba(255,255,255,0.6);
+            transform: scale(0.8);
         }
     }
 }
@@ -261,7 +298,8 @@
                 font-size: 0.12rem;
                 margin-top: -.04rem;
                 color: rgba(255,255,255,0.6);
-//              transform: scale(0.6);
+                transform: scale(0.8);
+
             } 
         }
         div.xz:nth-of-type(1){
@@ -307,21 +345,108 @@
             font-size: 0.12rem;
             margin-top: 0.1rem;
             color: rgba(255,255,255,0.6);
+            transform: scale(0.8);
         }
     }
 }
 //下边
 .bookpage-footer{
     width: 100%;
-    height: 1.28rem;
+    height: 1.28rem;    
     .bookpage-footer-m{
         width: 100%;
-        height: 100%;
+        background:#151c2b;
+        height: 100%;    
         position: relative;
         .bookpage-footer-btn{
-            
+            @include center;
+            margin: auto;
+            width: 1.4rem;
+            height: 0.51rem;
+            background: url($img-path+'e4/e4_07.png') no-repeat center center;
+            background-size: 100%;
+            color: #454545;
+            font-size: 0.2rem;
+            text-align: center;
+            line-height: 0.51rem;
+        }
+    }    
+}
+//读书
+.reading-header{
+    width: 100%;
+    height: 1rem;   
+    position: relative;
+    background: #29a6dc;
+    .read-add{
+        width: 0.34rem;
+        height: 0.34rem;
+        @include top-bottom;
+        right:1rem;
+        background: url($img-path+'f1/f1_06.png') no-repeat center center;
+        background-size: 100%;
+    }
+    .reading-list{
+        width: 5.71rem;
+        height: 0.84rem;
+        @include center;
+        background: url($img-path+'c1/c1_03.png') no-repeat 0 0;
+        background-size: 100%;
+    }
+    .classify{
+        width: 1.65rem;
+        height: 100%;
+        float: left; 
+        text-align: center;
+        color: #fff;
+        
+        h3{
+            margin-top: 0.15rem;
+            font-size: 0.2rem;
+        }
+        p{
+            font-size: 0.12rem;
+            margin-top: -.03rem;
+            color: rgba(255,255,255,0.6);
+            transform: scale(0.8);
+        }      
+    }
+    .classify:nth-of-type(1){
+        background: url($img-path+'c1/c_03.png') no-repeat center center;
+        background-size: 100%;
+        margin-left: 0.1rem;
+    }
+    .classify:nth-of-type(2){
+        background: url($img-path+'c1/c_03.png') no-repeat center center;
+        background-size: 100%;
+        margin-left: 0.35rem;
+    }
+    .classify:nth-of-type(3){
+        background: url($img-path+'c1/c_03.png') no-repeat center center;
+        background-size: 100%;
+        margin-left: 0.2rem;
+    }
+    .reading-header-title{
+        @include center;
+        min-width: 3rem;
+        height: 100%;
+        text-align: center;
+        margin: auto;
+        color: #fff;
+        background-image: url($img-path+'header/h_03.png');
+        background-position: center 0.55rem;
+        background-repeat: no-repeat;
+//      line-height: 100%;
+        h3{
+            font-size: 0.34rem;
+            margin-top: 0.03rem;
+//          margin-bottom: 0.05rem;
+        }
+        p{
+            font-size: 0.12rem;
+            margin-top: 0.1rem;
+            color: rgba(255,255,255,0.6);
+            transform: scale(0.8);
         }
     }
-    
-    
 }

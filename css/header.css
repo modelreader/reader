@@ -71,9 +71,8 @@ p, b, i, div, span, input, a {
 
 @font-face {
   font-family: 'headerfont';
-  /* project id："184478" */
-  src: url("http://at.alicdn.com/t/font_jqovc7s3ftne9udi.eot");
-  src: url("http://at.alicdn.com/t/font_jqovc7s3ftne9udi.eot?#iefix") format("embedded-opentype"), url("http://at.alicdn.com/t/font_jqovc7s3ftne9udi.woff") format("woff"), url("http://at.alicdn.com/t/font_jqovc7s3ftne9udi.ttf") format("truetype"), url("http://at.alicdn.com/t/font_jqovc7s3ftne9udi.svg#iconfont") format("svg"); }
+  src: url("../fonts/headerfont/iconfont.eot");
+  src: url("../fonts/headerfont/iconfont.eot?#iefix") format("embedded-opentype"), url("../fonts/headerfont/iconfont.woff") format("woff"), url("../fonts/headerfont/iconfont.ttf") format("truetype"), url("../fonts/headerfont/iconfont.svg#iconfont") format("svg"); }
 
 .header-logo {
   background: #29a6dc; }
@@ -127,9 +126,10 @@ p, b, i, div, span, input, a {
   background: #fff;
   left: 0.25rem;
   font-family: 'headerfont';
-  line-height: 0.42rem;
+  line-height: 0.38rem;
   text-align: center;
-  font-size: 0.16rem; }
+  font-size: 0.16rem;
+  color: #73c4e7; }
 
 .back-circle-r {
   width: 0.44rem;
@@ -143,9 +143,10 @@ p, b, i, div, span, input, a {
   background: #fff;
   right: 0.25rem;
   font-family: 'headerfont';
-  line-height: 0.42rem;
+  line-height: 0.38rem;
   text-align: center;
-  font-size: 0.16rem; }
+  font-size: 0.16rem;
+  color: #73c4e7; }
 
 .back-circle-screen {
   width: 0.44rem;
@@ -159,9 +160,10 @@ p, b, i, div, span, input, a {
   background: #fff;
   right: 0.35rem;
   font-family: 'headerfont';
-  line-height: 0.42rem;
+  line-height: 0.44rem;
   text-align: center;
-  font-size: 0.16rem; }
+  font-size: 0.16rem;
+  color: #42b0e0; }
 
 .bookcase-header {
   width: 100%;
@@ -189,7 +191,8 @@ p, b, i, div, span, input, a {
     .bookcase-header .bookcase-header-title h5 {
       font-size: 0.14rem;
       margin-top: 0.1rem;
-      color: rgba(255, 255, 255, 0.6); }
+      color: rgba(255, 255, 255, 0.6);
+      transform: scale(0.8); }
 
 .bookcase-header-search-out {
   width: 5.45rem;
@@ -251,7 +254,8 @@ p, b, i, div, span, input, a {
     .BookCity-header .classify p {
       font-size: 0.12rem;
       margin-top: -.03rem;
-      color: rgba(255, 255, 255, 0.6); }
+      color: rgba(255, 255, 255, 0.6);
+      transform: scale(0.8); }
   .BookCity-header .classify:nth-of-type(1) {
     background: url("../imgs/c1/c_03.png") no-repeat center center;
     background-size: 100%;
@@ -285,7 +289,35 @@ p, b, i, div, span, input, a {
     .BookCity-header .BookCity-header-title p {
       font-size: 0.12rem;
       margin-top: 0.1rem;
-      color: rgba(255, 255, 255, 0.6); }
+      color: rgba(255, 255, 255, 0.6);
+      transform: scale(0.8); }
+
+.BookCity-footer {
+  width: 100%;
+  height: 1rem;
+  background: #151c2b; }
+  .BookCity-footer .bookChange {
+    width: 33.333%;
+    height: 100%;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    color: #646567; }
+    .BookCity-footer .bookChange p {
+      font-size: 0.44rem;
+      text-align: center;
+      font-family: "headerfont";
+      margin-top: 0.05rem; }
+    .BookCity-footer .bookChange span {
+      font-size: 0.24rem;
+      text-align: center;
+      display: block;
+      width: 100%; }
+  .BookCity-footer .bookChange:nth-of-type(1) {
+    background-image: url("../imgs/c3/c1_xz.png");
+    border-left: 1px solid #717171;
+    border-right: 1px solid #717171; }
 
 .mine-header {
   width: 100%;
@@ -313,7 +345,8 @@ p, b, i, div, span, input, a {
     .mine-header .mine-header-title p {
       font-size: 0.12rem;
       margin-top: 0.1rem;
-      color: rgba(255, 255, 255, 0.6); }
+      color: rgba(255, 255, 255, 0.6);
+      transform: scale(0.8); }
 
 .mine-change {
   width: 5.71rem;
@@ -334,7 +367,8 @@ p, b, i, div, span, input, a {
       .mine-change .change div.xz p {
         font-size: 0.12rem;
         margin-top: -.04rem;
-        color: rgba(255, 255, 255, 0.6); }
+        color: rgba(255, 255, 255, 0.6);
+        transform: scale(0.8); }
     .mine-change .change div.xz:nth-of-type(1) {
       background: url("../imgs/d6/d6_03.png") no-repeat 0 0;
       background-size: 100%;
@@ -380,12 +414,106 @@ p, b, i, div, span, input, a {
     .bookPage-header .mine-header-title p {
       font-size: 0.12rem;
       margin-top: 0.1rem;
-      color: rgba(255, 255, 255, 0.6); }
+      color: rgba(255, 255, 255, 0.6);
+      transform: scale(0.8); }
 
 .bookpage-footer {
   width: 100%;
   height: 1.28rem; }
   .bookpage-footer .bookpage-footer-m {
     width: 100%;
+    background: #151c2b;
     height: 100%;
     position: relative; }
+    .bookpage-footer .bookpage-footer-m .bookpage-footer-btn {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      margin: auto;
+      width: 1.4rem;
+      height: 0.51rem;
+      background: url("../imgs/e4/e4_07.png") no-repeat center center;
+      background-size: 100%;
+      color: #454545;
+      font-size: 0.2rem;
+      text-align: center;
+      line-height: 0.51rem; }
+
+.reading-header {
+  width: 100%;
+  height: 1rem;
+  position: relative;
+  background: #29a6dc; }
+  .reading-header .read-add {
+    width: 0.34rem;
+    height: 0.34rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 1rem;
+    background: url("../imgs/f1/f1_06.png") no-repeat center center;
+    background-size: 100%; }
+  .reading-header .reading-list {
+    width: 5.71rem;
+    height: 0.84rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url("../imgs/c1/c1_03.png") no-repeat 0 0;
+    background-size: 100%; }
+  .reading-header .classify {
+    width: 1.65rem;
+    height: 100%;
+    float: left;
+    text-align: center;
+    color: #fff; }
+    .reading-header .classify h3 {
+      margin-top: 0.15rem;
+      font-size: 0.2rem; }
+    .reading-header .classify p {
+      font-size: 0.12rem;
+      margin-top: -.03rem;
+      color: rgba(255, 255, 255, 0.6);
+      transform: scale(0.8); }
+  .reading-header .classify:nth-of-type(1) {
+    background: url("../imgs/c1/c_03.png") no-repeat center center;
+    background-size: 100%;
+    margin-left: 0.1rem; }
+  .reading-header .classify:nth-of-type(2) {
+    background: url("../imgs/c1/c_03.png") no-repeat center center;
+    background-size: 100%;
+    margin-left: 0.35rem; }
+  .reading-header .classify:nth-of-type(3) {
+    background: url("../imgs/c1/c_03.png") no-repeat center center;
+    background-size: 100%;
+    margin-left: 0.2rem; }
+  .reading-header .reading-header-title {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    min-width: 3rem;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    background-image: url("../imgs/header/h_03.png");
+    background-position: center 0.55rem;
+    background-repeat: no-repeat; }
+    .reading-header .reading-header-title h3 {
+      font-size: 0.34rem;
+      margin-top: 0.03rem; }
+    .reading-header .reading-header-title p {
+      font-size: 0.12rem;
+      margin-top: 0.1rem;
+      color: rgba(255, 255, 255, 0.6);
+      transform: scale(0.8); }
