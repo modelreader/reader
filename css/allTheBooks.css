@@ -69,11 +69,71 @@ h3 {
 p, b, i, div, span, input, a {
   font-size: 16px; }
 
+@font-face {
+  font-family: 'headerfont';
+  src: url("../fonts/headerfont/iconfont.eot");
+  src: url("../fonts/headerfont/iconfont.eot?#iefix") format("embedded-opentype"), url("../fonts/headerfont/iconfont.woff") format("woff"), url("../fonts/headerfont/iconfont.ttf") format("truetype"), url("../fonts/headerfont/iconfont.svg#iconfont") format("svg"); }
+
+/*header*/
+#allTheBooks-header {
+  width: 100%;
+  height: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100000; }
+  #allTheBooks-header .bookPage-header {
+    width: 100%;
+    height: 1rem;
+    position: relative;
+    background: #29a6dc; }
+    #allTheBooks-header .bookPage-header .mine-header-title {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      min-width: 3rem;
+      height: 100%;
+      text-align: center;
+      margin: auto;
+      color: #fff;
+      background-image: url("../imgs/header/h_03.png");
+      background-position: center 0.55rem;
+      background-repeat: no-repeat; }
+      #allTheBooks-header .bookPage-header .mine-header-title h3 {
+        font-size: 0.34rem;
+        margin-top: 0.03rem; }
+      #allTheBooks-header .bookPage-header .mine-header-title p {
+        font-size: 0.12rem;
+        margin-top: 0.1rem;
+        color: rgba(255, 255, 255, 0.6);
+        transform: scale(0.8); }
+  #allTheBooks-header .back-circle-l {
+    width: 0.44rem;
+    height: 0.44rem;
+    border-radius: 50%;
+    border: 0.02rem solid #076cbe;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+    left: 0.25rem;
+    font-family: 'headerfont';
+    line-height: 0.38rem;
+    text-align: center;
+    font-size: 0.16rem;
+    color: #73c4e7; }
+
+/*header*/
 #allTheBooks {
   width: 7.5rem;
   margin-left: auto;
   margin-right: auto;
   overflow: auto;
+  margin-top: 1rem;
   /*最新书评*/
   /*最新书评*/ }
   #allTheBooks .review-box {
@@ -87,7 +147,7 @@ p, b, i, div, span, input, a {
     margin-bottom: 0.23rem;
     width: 6.89rem;
     height: 1.54rem;
-    border-radius: 0.4rem;
+    border-radius: 0.10rem;
     box-shadow: 0 0 0.1rem rgba(42, 126, 255, 0.13);
     background-color: #fdfdfd; }
   #allTheBooks .review-listL {
@@ -153,7 +213,7 @@ p, b, i, div, span, input, a {
           display: block;
           position: absolute;
           top: 0;
-          left: 0.01rem;
+          left: 0rem;
           width: 0.35rem;
           height: 0.35rem;
           border-radius: 50%;
@@ -165,6 +225,37 @@ p, b, i, div, span, input, a {
       #allTheBooks .review-listR .recode .recodeR {
         float: right; }
         #allTheBooks .review-listR .recode .recodeR i {
-          right: 0;
+          left: 0;
           background-image: url("../imgs/e1/c4_42.png");
           background-size: 0.14rem 0.11rem; }
+
+/*footer*/
+.bookpage-footer {
+  width: 100%;
+  height: 1.28rem;
+  position: fixed;
+  bottom: 0;
+  left: 0; }
+  .bookpage-footer .bookpage-footer-m {
+    width: 100%;
+    background: #151c2b;
+    height: 100%;
+    position: relative; }
+    .bookpage-footer .bookpage-footer-m .bookpage-footer-btn {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      margin: auto;
+      width: 1.4rem;
+      height: 0.51rem;
+      background: url("../imgs/e4/e4_07.png") no-repeat center center;
+      background-size: 100%;
+      color: #454545;
+      font-size: 0.2rem;
+      text-align: center;
+      line-height: 0.51rem; }
+
+/*footer*/

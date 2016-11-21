@@ -1,6 +1,50 @@
 @import 'base';
+//iconfont
+@font-face {
+  font-family: 'headerfont';
+  src: url('../fonts/headerfont/iconfont.eot');
+  src: url('../fonts/headerfont/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/headerfont/iconfont.woff') format('woff'),
+  url('../fonts/headerfont/iconfont.ttf') format('truetype'),
+  url('../fonts/headerfont/iconfont.svg#iconfont') format('svg');
+}
+//iconfont
+
 $margin-bottom1: 0.12rem; //我的书签标题下边距
 $height1: 1.14rem; //我的书签列表高度 
+
+/*头*/
+#pages-header{
+    width: 100%;
+    height: 1rem;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    z-index: 100000;
+    .bookPage-header{
+        width: 100%;
+        height: 1rem;   
+        position: relative;
+        background: #29a6dc;
+    }
+    .back-circle-l{
+        width:0.44rem;
+        height:0.44rem;
+        border-radius: 50%;
+        border: 0.02rem solid #076cbe;
+        @include top-bottom;
+        background: #fff;
+        left: 0.25rem;
+        font-family: 'headerfont';
+        line-height: 0.38rem;
+        text-align: center;
+        font-size: 0.16rem;
+        color: #73c4e7;
+    }
+}
+
+/*头*/
+
 @mixin box-sizing{
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -13,6 +57,7 @@ $width1:7.5rem;  //盒子宽度
     margin-left: auto;
     margin-right: auto;
     overflow: auto;
+    margin-top: 1rem;
     /*立即阅读*/
     .iRead{
         @include box1(100%,5.60rem);
@@ -198,7 +243,7 @@ $width1:7.5rem;  //盒子宽度
         margin-left: 0.24rem;
         margin-bottom: 0.23rem;
         @include box1(6.89rem,1.54rem);
-        border-radius: 0.4rem;
+        border-radius: 0.10rem;
         box-shadow: 0 0 0.1rem rgba(42,126,255,0.13);
         background-color: #fdfdfd;
     }
